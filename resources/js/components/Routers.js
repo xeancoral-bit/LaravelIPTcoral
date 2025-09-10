@@ -10,6 +10,9 @@ export default function Routers() {
             <Routes>
                 <Route path="/" element={<Example />} />
                 <Route path="/home" element={<Home />} />
+                <Route path="/about" element={<about />} />
+                <Route path="/contact" element={<Contact />} />
+                <Route path="/more" element={<MoreInfo />} />   
             </Routes>
         </Router>
     );
